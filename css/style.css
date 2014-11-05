@@ -494,3 +494,19 @@ select::-moz-focus-inner {
     border: 0;
 }
 
+
+/* Validator */
+
+.LV_validation_message{
+    margin: 20px 0 0 5px;
+}
+
+.LV_valid {
+    color: #45c145;
+}
+	
+.LV_invalid {
+    color:#c00;
+}
+
+
