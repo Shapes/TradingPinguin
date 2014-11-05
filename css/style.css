@@ -498,7 +498,7 @@ select::-moz-focus-inner {
 /* Validator */
 
 .LV_validation_message{
-    margin: 20px 0 0 5px;
+    margin: 20px 0 0 14px;
 }
 
 .LV_valid {
@@ -509,4 +509,22 @@ select::-moz-focus-inner {
     color:#c00;
 }
 
+
+/* Login & logout */ 
+
+#modal{
+    -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.modal-hidden{
+    margin-top: -220px;
+    opacity: 0;
+}
+.modal-visible{
+    margin-top: 0;
+    opacity: 1;
+}
 

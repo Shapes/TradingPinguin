@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -45,11 +46,10 @@
         </div>
         <div class="prijava">
             <div id="hidden_1" >Guest</div>
-            <a href="profile.html"><div class="buttonKrog"><i id ="userIcon" class="fa fa-user fa-2x"></i></div></a>
+            <a href="#"><div id="gumb" class="buttonKrog"><i id ="userIcon" class="fa fa-user fa-2x"></i></div></a>
         </div>
     </header>
     <div class="telo">
-        
         <div class="row left_row">
             <div id="selected" class="module">
                 
@@ -137,8 +137,10 @@
             </div>
         </div>
         <div class="row right_row">
-            <div id="selected" class="module">
+            <div id="modal" class="module modal-hidden">
                 
+            </div>
+            <div id="selected" class="module">
                 <div class="module__content">
                     <h2>Play station 0</h2>
                     <hr>
@@ -204,7 +206,7 @@
         </div>
         <br style="clear: both" />
     </div>
-    <footer><a href="http://www.markobalazic.com">Marko Balazic</a> - Predmet: Spletno programiranje 
+    <footer><a href="http://www.markobalazic.com">Marko Balažic</a> - Predmet: Spletno programiranje 
     </footer>
 </body>
 </html>
