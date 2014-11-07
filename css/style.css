@@ -242,6 +242,16 @@ body footer{                                                                    
 .telo .right_row{
     margin-left: 5px;
 }
+#label-view{
+    /*position: fixed;*/
+    width: 130px;
+    /*margin-left: -140px;*/
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 5px;
+    color: #b9b1a9;
+}
 .module{
     width: 100%;
     background-color: #34495e;
@@ -253,27 +263,32 @@ body footer{                                                                    
     border-bottom-width: 7px;
     border-bottom-color: #34495e;
     overflow: hidden;
+    position: relative;
 }
 .module__photo{
-    width: 100%;
+    width: 305px;
     opacity: 1;
     transition: opacity 0.1s;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
+    /*margin-bottom: -120px;*/
+    z-index: 0;
+    position: relative;
 }
 .module__content{
     height: 100px;
     width: 291px;
-    margin-bottom: -120px;
-    background-color: #34495e;
     padding-left: 7px;
     padding-right: 7px;
     visibility: hidden;
-    opacity: 0;
+    z-index: 999;
+    opacity: 0;  
     text-align: center;
     transition: opacity 0.3s;
+    top: 0;
+    position: absolute;
 }
 .module__content hr{
     width: 50px;
@@ -513,14 +528,14 @@ select::-moz-focus-inner {
 /* Login & logout */ 
 
 #modal{
-    -webkit-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
 .modal-hidden{
-    margin-top: -220px;
+    margin-top: -240px;
     opacity: 0;
 }
 .modal-visible{
@@ -528,3 +543,55 @@ select::-moz-focus-inner {
     opacity: 1;
 }
 
+.login_wrapper {
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    text-align: center;
+}
+.login_wrapper span{
+    color: rgba(255, 255, 255, 0.4);
+}
+.login_wrapper input{
+    border: 0;
+    width: 95%;
+    height: 37px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.login_wrapper input::-webkit-input-placeholder {
+    height: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 4px;
+}
+.login_wrapper input:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity:  1;
+}
+.login_wrapper input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity:  1;
+}
+.login_wrapper input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#login_submit {
+    width: 99%;
+    -webkit-box-shadow: inset 0px -6px 0px 0px rgba(255,255,255,0.4);
+    -moz-box-shadow: inset 0px -6px 0px 0px rgba(255,255,255,0.4);
+    box-shadow: inset 0px -6px 0px 0px rgba(255,255,255,0.4);
+    
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -kthtml-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+#login_submit:hover{
+    -webkit-box-shadow: inset 0px -154px 0px 0px rgba(255,255,255,0.6);
+    -moz-box-shadow: inset 0px -154px 0px 0px rgba(255,255,255,0.6);
+    box-shadow: inset 0px -154px 0px 0px rgba(255,255,255,0.6);
+}
