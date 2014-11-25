@@ -1,4 +1,9 @@
-       
+<?php
+    
+
+
+    
+?>
     <div class="chunk">
 		<div class="boxP1">
 			<img id="prod_photo" src="profiles/user.jpg" alt="" >
@@ -27,36 +32,37 @@
               <td>Golf 7</td>
               <td>12.2.2014</td>
               <td><a href="?sub=products">View</a></td>
-              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a>&nbsp;&nbsp;<a href="#"><i class="fa fa-pencil"></i>Edit</a></td>
+              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a></td>
             </tr>
             <tr>
               <td>Play station 4</td>
               <td>1.2.2014</td>
               <td><a href="?sub=products">View</a></td>
-              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a>&nbsp;&nbsp;<a href="#"><i class="fa fa-pencil"></i>Edit</a></td>
+              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a></td>
             </tr>
             <tr>
               <td>Nahrbtnik</td>
               <td>9.2.2011</td>
               <td><a href="?sub=products">View</a></td>
-              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a>&nbsp;&nbsp;<a href="#"><i class="fa fa-pencil"></i>Edit</a></td>
+              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a></td>
             </tr>
             <tr>
               <td>Wine</td>
               <td>1.2.2009</td>
               <td><a href="?sub=products">View</a></td>
-              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a>&nbsp;&nbsp;<a href="#"><i class="fa fa-pencil"></i>Edit</a></td>
+              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a></td>
             </tr>
             <tr>
               <td>Wooden earings</td>
               <td>4.2.2014</td>
               <td><a href="?sub=products">View</a></td>
-              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a>&nbsp;&nbsp;<a href="#"><i class="fa fa-pencil"></i>Edit</a></td>
+              <td class="edit"><a href="#"><i class="fa fa-trash"></i>Delete</a></td>
             </tr>
           </tbody>
 
         </table>  
 	</div>
+    <!--
 	<div id="feedback" class="feedback chunk">
 		<div class="addC comm"> 
             <div class="user_photo"></div>
@@ -72,4 +78,5 @@
             <div> <p>&nbsp;&nbsp;&nbsp;&nbsp;No problems with exchange. Thank you again.</p> </div>
         </div>
 	</div>
+    -->
         
